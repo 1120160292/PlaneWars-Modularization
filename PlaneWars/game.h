@@ -28,20 +28,23 @@ typedef struct {
     int score;
 } GAME_INFO_T;
 
+/*三种类型的飞机*/
 typedef enum {
     SMALL = 1,
     MIDDLE,
     BIG,
 } PLANE_TYPE;
 
+/*每种类型飞机的信息*/
 typedef struct {
     PLANE_TYPE type;
     int size_x;
     int size_y;
-    int max_hp;
+    int max_hp;	//max hit counter
     int speed;
 } PLANE_TYPE_INFO_T;
 
+/*每架飞机的信息*/
 typedef struct {
     PLANE_TYPE type;
     int hp;
