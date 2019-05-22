@@ -7,7 +7,6 @@
 
 #include "stdafx.h"
 #include "PlaneWars.h"
-
 #pragma comment(lib,"msimg32.lib")
 #pragma comment(lib,"winmm.lib")
 
